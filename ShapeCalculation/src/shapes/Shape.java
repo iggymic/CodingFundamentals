@@ -1,10 +1,9 @@
 package shapes;
 
-public class Shape {
+public abstract class Shape {
 
-  public double calculateArea(){
-      return 0.0;
-  }
+  public abstract double calculateArea();
+
 
     @Override
     public String toString() {
